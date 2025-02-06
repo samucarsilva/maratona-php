@@ -13,9 +13,11 @@
 
     <?php
     
-    $quebraDeLinha = "<br></br>";
+
+        $quebraDeLinha = "<br></br>";
     
-        $listaDeAmigos = ["Luiza", "Luiz", "Luan", "Luana", "Paulo"];
+
+            $listaDeAmigos = ["Luiza", "Luiz", "Luan", "Luana", "Paulo"];
         
 
         print_r($listaDeAmigos[0] . $quebraDeLinha);
