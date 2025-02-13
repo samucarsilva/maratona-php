@@ -14,29 +14,45 @@
     <?php
     
 
+    
+
         $quebraDeLinha = "<br></br>";
     
 
-            $listaDeAmigos = ["Luiza", "Luiz", "Luan", "Luana", "Paulo"];
+        $listaDeAmigos = ["Luiza", "Luiz", "Luan", "Luana", "Paulo"];
         
 
-        print_r($listaDeAmigos[0] . $quebraDeLinha);
-        print_r($listaDeAmigos[1] . $quebraDeLinha);
-        print_r($listaDeAmigos[2] . $quebraDeLinha);
-        print_r($listaDeAmigos[3] . $quebraDeLinha);
-        print_r($listaDeAmigos[4] . $quebraDeLinha);
-    
+            print_r($listaDeAmigos);
+
+
+        echo $quebraDeLinha;
+
+        
+            print_r($listaDeAmigos[0] . $quebraDeLinha);
+            print_r($listaDeAmigos[1] . $quebraDeLinha);
+            print_r($listaDeAmigos[2] . $quebraDeLinha);
+            print_r($listaDeAmigos[3] . $quebraDeLinha);
+            print_r($listaDeAmigos[4] . $quebraDeLinha);
+
+
+
+            unset($listaDeAmigos[1]);
+        $listaDeAmigos = array_values($listaDeAmigos);
+
 
         echo $quebraDeLinha;
 
 
-        unset($listaDeAmigos[1]);
-        $listaDeAmigos = array_values($listaDeAmigos);
+            print_r($listaDeAmigos[0] . $quebraDeLinha);
+            print_r($listaDeAmigos[1] . $quebraDeLinha);
+            print_r($listaDeAmigos[2] . $quebraDeLinha);
+            print_r($listaDeAmigos[3] . $quebraDeLinha);
 
-        print_r($listaDeAmigos[0] . $quebraDeLinha);
-        print_r($listaDeAmigos[1] . $quebraDeLinha);
-        print_r($listaDeAmigos[2] . $quebraDeLinha);
-        print_r($listaDeAmigos[3] . $quebraDeLinha);
+        
+        echo $quebraDeLinha;
+
+
+            print_r($listaDeAmigos);
 
 
     ?>
