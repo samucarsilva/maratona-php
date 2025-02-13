@@ -12,12 +12,10 @@
 
 
     <?php
-    
 
-    
 
         $quebraDeLinha = "<br></br>";
-    
+
 
         $listaDeAmigos = ["Luiza", "Luiz", "Luan", "Luana", "Paulo"];
         
@@ -27,7 +25,7 @@
 
         echo $quebraDeLinha;
 
-        
+
             print_r($listaDeAmigos[0] . $quebraDeLinha);
             print_r($listaDeAmigos[1] . $quebraDeLinha);
             print_r($listaDeAmigos[2] . $quebraDeLinha);
@@ -35,9 +33,8 @@
             print_r($listaDeAmigos[4] . $quebraDeLinha);
 
 
-
-            unset($listaDeAmigos[1]);
-        $listaDeAmigos = array_values($listaDeAmigos);
+            unset($listaDeAmigos[1]); // Removendo o Segundo Índice do Array
+        $listaDeAmigos = array_values($listaDeAmigos); // Reorganizando os Índices do Array
 
 
         echo $quebraDeLinha;
@@ -48,7 +45,7 @@
             print_r($listaDeAmigos[2] . $quebraDeLinha);
             print_r($listaDeAmigos[3] . $quebraDeLinha);
 
-        
+
         echo $quebraDeLinha;
 
 
